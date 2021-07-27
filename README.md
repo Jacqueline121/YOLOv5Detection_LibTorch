@@ -42,7 +42,7 @@ To develop Pytorch YOLOV5 model in C++ environment, we need to transfer the mode
    traced_module = torch.jit.trace(model, example)
    torch.jit.save(traced_module, "yolov5s_torchscript.pt")
    ```
-Fortunately, the official repository has offered the code, please refer to the official document [here](#https://github.com/ultralytics/yolov5).
+Fortunately, the official repository has offered the code, please refer to the official document [here](https://github.com/ultralytics/yolov5).
 
 We need to modify following code from the original export.py in official document.
 
