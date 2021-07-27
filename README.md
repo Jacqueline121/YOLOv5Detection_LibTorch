@@ -4,7 +4,6 @@ Real time object detection with deployment of YOLOv5 through LibTorch C++ API
 ### Prerequisites
 
 - Ubuntu 18.04
-- PyTorch 
 - OpenCV 3.2.0
 - LibTorch 1.6.0
 - CMake 3.10.2
